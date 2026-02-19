@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
     const [displayText, setDisplayText] = useState('');
-    const roles = ['AI/ML Engineer', 'Full Stack Developer', 'MERN Stack Expert', 'Machine Learning Enthusiast'];
+    const roles = ['AI/ML Engineer', 'Full Stack Developer', 'Python Developer', 'Data Science Enthusiast'];
     const [roleIndex, setRoleIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
