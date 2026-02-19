@@ -53,19 +53,19 @@ const Contact = () => {
                         <div className="info-card glass-card">
                             <div className="info-icon">📧</div>
                             <h3>Email</h3>
-                            <p>your.email@example.com</p>
+                            <p>rahullohra987@gmail.com</p>
                         </div>
 
                         <div className="info-card glass-card">
                             <div className="info-icon">📱</div>
                             <h3>Phone</h3>
-                            <p>+1 (123) 456-7890</p>
+                            <p>+1 9771315217</p>
                         </div>
 
                         <div className="info-card glass-card">
                             <div className="info-icon">📍</div>
                             <h3>Location</h3>
-                            <p>Your City, Country</p>
+                            <p>Latehar, Jharkhand, India</p>
                         </div>
 
                         <div className="social-links">
