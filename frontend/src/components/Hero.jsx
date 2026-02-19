@@ -44,8 +44,12 @@ const Hero = () => {
     const handleResumeDownload = async () => {
         setResumeLoading(true);
         try {
-            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-            const response = await fetch(`${apiUrl}/api/resume`);
+            // const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+            // const response = await fetch(`${apiUrl}/api/resume`);
+
+            const baseUrl = import.meta.env.VITE_API_URL || '';
+            const response = await fetch(`${baseUrl}/resume`);
+
 
             if (!response.ok) {
                 throw new Error('Resume not found');
