@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+                    <p>&copy; {currentYear} Rahul Lohra. All rights reserved.</p>
                     <button onClick={scrollToTop} className="scroll-top" aria-label="Scroll to top">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M12 19V5M5 12l7-7 7 7" />
